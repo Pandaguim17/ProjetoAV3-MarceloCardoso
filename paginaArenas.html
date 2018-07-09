@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Marcelo's Royale Land</title>
+	<link rel="stylesheet" type="text/css" href="css/paginaArenas.css">
+</head>
+<body>
+	<nav id="menu">
+    	<ul>
+    	    <li><b><a href="index.html">HOME</a></b></li>
+        	<li><b><a href="paginaExtras.html">EXTRAS</a></b></li>
+        </ul>
+	</nav>
+
+	<div class="textoNome">
+		<b><span id="arenaLabel"></span></b>
+	</div>
+
+	<div class="container">
+		<div id="box-1" class="box">
+			<select multiple name="listaBau" id="listaBau">
+				<option onclick="javascript:trocaTela();" value="arena1">Campo de Treinamento</option>
+				<option onclick="javascript:trocaTela();" value="arena2">Estádio Goblin</option>
+				<option onclick="javascript:trocaTela();" value="arena3">Fosso dos Ossos</option>
+				<option onclick="javascript:trocaTela();" value="arena4">Torneio Bárbaro</option>
+				<option onclick="javascript:trocaTela();" value="arena5">Parquinho da P.E.K.K.A</option>
+				<option onclick="javascript:trocaTela();" value="arena6">Vale dos Feitiços</option>
+				<option onclick="javascript:trocaTela();" value="arena7">Oficina do Construtor</option>
+				<option onclick="javascript:trocaTela();" value="arena8">Arena Real</option>
+				<option onclick="javascript:trocaTela();" value="arena9">Pico Congelado</option>
+				<option onclick="javascript:trocaTela();" value="arena10">Arena da Selva</option>
+				<option onclick="javascript:trocaTela();" value="arena11">Montanha do Porco</option>
+				<option onclick="javascript:trocaTela();" value="arena12">Eletrovale</option>
+				<option onclick="javascript:trocaTela();" value="arena13">Arena Lendária</option>
+			</select>
+		</div>
+		
+		<div id="box-2" class="box">
+			<img id="arenaImg" src="">
+		</div>
+	</div>
+
+	<div>
+		<b><p>Nº de troféus necessários(promoção/despromoção):</p></b>
+		<p id="arena"></p>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/paginaArenas.js"></script>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Marcelo's Royale Land</title>
+	<link rel="stylesheet" type="text/css" href="css/paginaChests.css">
+</head>
+<body>
+	<nav id="menu">
+    	<ul>
+    	    <li><b><a href="index.html">HOME</a></b></li>
+        	<li><b><a href="paginaExtras.html">EXTRAS</a></b></li>
+        </ul>
+	</nav>
+
+	<div class="textoNome">
+		<b><span id="chestLabel"></span></b>
+	</div>
+
+	<div class="container">
+		<div id="box-1" class="box">
+			<select multiple name="listaBau" id="listaBau">
+				<option onclick="javascript:trocaTela();" value="bau1">Bau de Madeira</option>
+				<option onclick="javascript:trocaTela();" value="bau2">Bau de Prata</option>
+				<option onclick="javascript:trocaTela();" value="bau3">Bau de Ouro</option>
+				<option onclick="javascript:trocaTela();" value="bau4">Bau da Coroa</option>
+				<option onclick="javascript:trocaTela();" value="bau5">Bau de Gigante</option>
+				<option onclick="javascript:trocaTela();" value="bau6">Bau de Mágico</option>
+				<option onclick="javascript:trocaTela();" value="bau7">Bau de Super Mágico</option>
+				<option onclick="javascript:trocaTela();" value="bau8">Bau Épico</option>
+				<option onclick="javascript:trocaTela();" value="bau9">Bau Lendário</option>
+			</select>
+		</div>
+		
+		<div id="box-2" class="box">
+			<img id="chestImg" src="">
+			
+		</div>
+	</div>
+
+	<div>
+		<b><p>Info:</p></b>
+		<p id="chestP1"></p>
+		<b>Tempo de disponibilidade/abertura:</b>
+		<p id="chestP2"></p>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/paginaChests.js"></script>
+
+</html>
